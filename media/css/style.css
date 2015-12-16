@@ -1,0 +1,87 @@
+#header {
+height:150px;
+background: url(../img/koga16.jpg);
+}
+.logo{
+float:left;
+padding:10px;
+height:100px;
+width:100px;}
+
+#header h1{
+float:right;
+padding:10px;
+margin:0;}
+
+body{
+background: url(../img/koga11.jpg);
+padding:0;
+margin:0;}
+
+.registr{
+width: 200px;
+float:right;
+margin-right:100px;
+}
+
+.avtor{
+width: 200px;
+margin-left:100px;
+}
+
+.vih{
+width: 200px;
+float:right;
+margin-right:100px;
+}
+
+.cob{
+width: 200px;
+float:right;
+margin-right:100px;
+}
+
+.textt{
+color:blue;
+text-align:center;
+}
+
+.topmenu{
+display:-moz-box;
+display:flex;
+padding:10px;
+wider:100%;
+margin:0 auto;
+}
+.topmenu a {
+-moz-box-flex:1;
+flex:1;
+display:block;
+font-size:20px;
+color:green;
+text-decoration:none;
+text-align:center;
+padding:10px 0;
+background:#A3F5D9;
+border-right:1px solid yellow;
+}
+
+
+.topmenu a:hover{
+background:#A12691;
+color:#95A4E4;
+}
+
+.content h2{
+color:#CDD57C;
+text-align:center;
+}
+
+#footer{
+padding: 40px auto;
+background:#F2F11C;
+text-align:center;
+}
+#footer a{
+color:#EA8176;
+}
