@@ -36,6 +36,7 @@ if ($_SESSION['id']){
 ?>
 <div class="vih"><a href="logout.php" class="btn btn-success btn-block">выход</a></div>
 <div class="cob"><a href="cobinet.php" class="btn btn-success btn-block">кабинет</a></div>
+<div class="new"> <a href="new_news.php" class="btn btn-success btn-block">не знаю что это</a></div>
 <?php
 } else{
 ?>
