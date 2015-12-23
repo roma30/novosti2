@@ -18,6 +18,10 @@ background: url(../img/koga11.jpg);
 padding:0;
 margin:0;}
 
+.btn btn-default btn-block link link_for_hide {
+font-color: blue;
+}
+
 .registr{
 width: 200px;
 float:right;

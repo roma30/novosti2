@@ -12,7 +12,8 @@
 <meta name="outher" content="mikhalkevich@yo.ru">
 <link type ="text/css " href="media/css/style.css" rel="stylesheet"/>
 <link type ="text/css " href="media/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
-
+<script src="media/js/jquery-1.11.3.min.js"></script>
+<script src="media/js/my.js"></script>
 </head>
 <body>
 
