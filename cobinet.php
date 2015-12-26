@@ -53,6 +53,7 @@ $cats=$database-> resultset();
 
 		$database = new Database();
 	$query = 'INSERT INTO statias (cat_id,user_id,name_categoria, editor1,file_foto,data_reg) VALUES ("'.$_POST['cat_id'].'","'.$_SESSION['id'].'","'.$_POST['name_categoria'].'","'.$_POST['editor1'].'","'.trim($real_name).'",NOW())';
+	echo $query;
 	$database->query($query);
 /*
 		$database->bind(':cat_id', $_POST['cat_id']);
