@@ -19,7 +19,7 @@ if($_POST){
 		$database = new Database();
 		$query="UPDATE statias SET name_categoria='".$_POST['name_categoria']."', editor1='".$_POST['editor1']."', update1 = NOW() WHERE id=".$_GET['id'];
 		$database->query($query);
-			$result = $database->execute();
+		$result = $database->execute();
 		if($result){
 			?>
 		<script>
