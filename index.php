@@ -17,3 +17,9 @@ $row=$obj-> single();
 		<?echo $row['body'];?>
 
 <?php require_once("templates/bottom.php");?>
+
+/*script>
+ $(function(){
+$('a').attr('href','http://mysite.com');
+}); 
+script>*/
